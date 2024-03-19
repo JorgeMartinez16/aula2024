@@ -1,0 +1,20 @@
+{
+    "name": "aula2024-01",
+    "version": "1.0.0",
+    "description": "Proyecto de lavautos",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "lavautos",
+        "node",
+        "express",
+        "html"
+    ],
+    "author": "Tu Nombre",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.3"
+    }
+}

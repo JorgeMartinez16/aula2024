@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #007bff, #ffffff); /* Fondo degradado */
+}
+
+.container {
+    max-width: 1000px; /* Ajusta el ancho máximo del contenedor principal */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenedor del formulario */
+.container {
+    max-width: 800px; /* Ajusta el ancho máximo del contenedor del formulario */
+    margin: 50px auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2em;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background-color: #007bff; /* Color del subrayado */
+    transition: width 0.3s ease;
+}
+
+h1:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+/* Estilos para etiquetas de formulario */
+label {
+    margin-bottom: 10px;
+    color: #555;
+    display: block; /* Convertir en bloque para que ocupe una línea completa */
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(100% - 22px); /* Ancho del campo - padding */
+}
+
+/* Estilos para botones */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos específicos para la vista de login */
+
+.container {
+    max-width: 400px; /* Ajusta el ancho máximo del contenedor del formulario */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2em;
+    position: relative;
+}
+
+/* Estilos para los botones de navegación */
+.navigation-buttons {
+    margin-bottom: 20px;
+    text-align: center; /* Centrar los botones horizontalmente */
+    position: relative;
+}
+
+.navigation-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 30 20px; /* Espaciado entre los botones */
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navigation-buttons a:hover {
+    background-color: #51f02a;
+}
+
+
+/* Estilos para el footer */
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos específicos para el formulario de registro de empleado */
+.custom-form .form-field {
+    margin-bottom: 0px; /* Reducir el espacio entre cada campo */
+    
+}
