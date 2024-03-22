@@ -145,3 +145,43 @@ h1 {
     margin-bottom: 0px; /* Reducir el espacio entre cada campo */
     
 }
+
+/* Estilos específicos para la factura */
+.invoice-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.invoice-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.invoice-container th, .invoice-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.invoice-container th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.invoice-container td {
+    text-align: right;
+}
+
+.invoice-container .total-row {
+    font-weight: bold;
+}
